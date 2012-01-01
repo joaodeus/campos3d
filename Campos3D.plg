@@ -1,0 +1,110 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Campos3D - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x816 /fo"Release/Campos3D.res" /d "NDEBUG" "D:\VisualC\Campos3D\Campos3D.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP273.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Campos3D.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\VisualC\Campos3D\Calculadora.cpp"
+"D:\VisualC\Campos3D\Campos3D.cpp"
+"D:\VisualC\Campos3D\Campos3DDoc.cpp"
+"D:\VisualC\Campos3D\Campos3DView.cpp"
+"D:\VisualC\Campos3D\ChildFrm.cpp"
+"D:\VisualC\Campos3D\Complexo.cpp"
+"D:\VisualC\Campos3D\Formula_Dlg.cpp"
+"D:\VisualC\Campos3D\GuiaC.cpp"
+"D:\VisualC\Campos3D\GuiaR.cpp"
+"D:\VisualC\Campos3D\GuiasCilDlg.cpp"
+"D:\VisualC\Campos3D\GuiasNCampos.cpp"
+"D:\VisualC\Campos3D\GuiasNCamposZDlg.cpp"
+"D:\VisualC\Campos3D\GuiasRectDlg.cpp"
+"D:\VisualC\Campos3D\GuiasRectDlg2.cpp"
+"D:\VisualC\Campos3D\MainFrm.cpp"
+"D:\VisualC\Campos3D\msflexgrid.cpp"
+"D:\VisualC\Campos3D\Ondas.cpp"
+"D:\VisualC\Campos3D\OndasDlg.cpp"
+"D:\VisualC\Campos3D\TEc.cpp"
+"D:\VisualC\Campos3D\TEr.cpp"
+"D:\VisualC\Campos3D\TM_Rectangular.cpp"
+"D:\VisualC\Campos3D\TMc.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP273.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP0274.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Campos3D.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\VisualC\Campos3D\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP0274.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP0275.TMP" with contents
+[
+opengl32.lib glu32.lib glaux.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Campos3D.pdb" /machine:I386 /out:"Release/Campos3D.exe" 
+.\Release\Calculadora.obj
+.\Release\Campos3D.obj
+.\Release\Campos3DDoc.obj
+.\Release\Campos3DView.obj
+.\Release\ChildFrm.obj
+.\Release\Complexo.obj
+.\Release\Formula_Dlg.obj
+.\Release\GuiaC.obj
+.\Release\GuiaR.obj
+.\Release\GuiasCilDlg.obj
+.\Release\GuiasNCampos.obj
+.\Release\GuiasNCamposZDlg.obj
+.\Release\GuiasRectDlg.obj
+.\Release\GuiasRectDlg2.obj
+.\Release\MainFrm.obj
+.\Release\msflexgrid.obj
+.\Release\Ondas.obj
+.\Release\OndasDlg.obj
+.\Release\StdAfx.obj
+.\Release\TEc.obj
+.\Release\TEr.obj
+.\Release\TM_Rectangular.obj
+.\Release\TMc.obj
+.\Release\Campos3D.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP0275.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Calculadora.cpp
+Campos3D.cpp
+Campos3DDoc.cpp
+Campos3DView.cpp
+ChildFrm.cpp
+Complexo.cpp
+Formula_Dlg.cpp
+GuiaC.cpp
+GuiaR.cpp
+GuiasCilDlg.cpp
+GuiasNCampos.cpp
+GuiasNCamposZDlg.cpp
+GuiasRectDlg.cpp
+GuiasRectDlg2.cpp
+MainFrm.cpp
+msflexgrid.cpp
+Ondas.cpp
+OndasDlg.cpp
+TEc.cpp
+TEr.cpp
+Generating Code...
+Compiling...
+TM_Rectangular.cpp
+TMc.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Campos3D.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,27 @@
+// GuiasC.cpp: implementation of the GuiasC class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "campos3d.h"
+#include "GuiasC.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+GuiasC::GuiasC()
+{
+
+}
+
+GuiasC::~GuiasC()
+{
+
+}
